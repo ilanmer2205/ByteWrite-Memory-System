@@ -1,11 +1,11 @@
-This memory is word-addressable, byte writable.
+This memory is word-addressable and byte writable.
 
 For read:
-A word is read from the memory and based on the instruction (LW/LH/LB/LHU/LBU), than it will organise the word as per the instruction in the receiver module.
+A word is read from memory, and based on the instruction (LW/LH/LB/LHU/LBU), it is organised in the receiver module.
 
 For write:
-A word is organized as per the instruction (SB/SH/SW), and the mask is prepared as per the address. then, in the memory model, the word is saved in the byte number corresponding to the mask.
+A word is organized according to the instruction (SB/SH/SW), and the mask is prepared according to the address. Then, in the memory model, the word is stored at the byte location corresponding to the mask.
 
 Test_bench:
-note: Top Test Bench was made by chatgpt5, while I've made some tweaks
+Note: ChatGPT5 made the Top Test Bench, while I've made some tweaks
 
