@@ -1,4 +1,4 @@
-This memory is word-addressable and byte writable.
+This memory is word-addressable and byte writable. It is to be used with the RISC-V pipelined processor I've previously designed.
 
 For read:
 A word is read from memory, and based on the instruction (LW/LH/LB/LHU/LBU), it is organised in the receiver module.
